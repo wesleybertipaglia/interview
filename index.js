@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const port = process.env.PORTT || 3001;
+const port = process.env.PORT || 3001;
 
 server.use(express.json());
 
@@ -9,11 +9,13 @@ const books = require('./src/data/books.json');
 
 // routes
 server.get('/', (req, res) => {
+    res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     return res.send("Server is running");
 });
 
 server.get('/books', (req, res) => {
+    res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
     return res.json(books);
 });
@@ -23,6 +25,7 @@ server.get('/books/:id', (req, res) => {
     const book = books.find((book) => book.id === id);
 
     if (book) {
+        res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
         res.json(book);
     } else {
@@ -53,7 +56,7 @@ server.put('/books/:id', (req, res) => {
     if (book) {
         book.title = title || book.title;
         book.author = author || book.author;
-        res.json(book);
+        res.status(201).json(book);
     } else {
         res.status(404).json({ error: 'Livro não encontrado' });
     }
@@ -66,7 +69,7 @@ server.delete('/books/:id', (req, res) => {
 
     if (bookIndex !== -1) {
         const deletedBook = books.splice(bookIndex, 1);
-        res.json(deletedBook[0]);
+        res.status(201).json(deletedBook[0]);
     } else {
         res.status(404).json({ error: 'Livro não encontrado' });
     }
