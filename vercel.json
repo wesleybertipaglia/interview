@@ -9,11 +9,11 @@
     "routes": [
       {
         "src": "/books",
-        "dest": "/index.js"
+        "dest": "./index.js"
       },
       {
         "src": "/books/:id",
-        "dest": "/index.js"
+        "dest": "./index.js"
       },
       {
         "src": "/(.*)",
