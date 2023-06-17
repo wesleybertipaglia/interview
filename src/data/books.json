@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari"
+  },
+  {
+    "id": 2,
+    "title": "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography",
+    "author": "Simon Singh"
+  },
+  {
+    "id": 3,
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams"
+  },
+  {
+    "id": 4,
+    "title": "Ready Player One",
+    "author": "Ernest Cline"
+  },
+  {
+    "id": 5,
+    "title": "The Pragmatic Programmer: Your Journey to Mastery",
+    "author": "David Thomas, Andrew Hunt"
+  },
+  {
+    "id": 6,
+    "title": "Norse Mythology",
+    "author": "Neil Gaiman"
+  },
+  {
+    "id": 7,
+    "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+    "author": "Walter Isaacson"
+  },
+  {
+    "id": 8,
+    "title": "The C Programming Language",
+    "author": "Brian Kernighan, Dennis Ritchie"
+  },
+  {
+    "id": 9,
+    "title": "Neuromancer",
+    "author": "William Gibson"
+  },
+  {
+    "id": 10,
+    "title": "The Art of Deception: Controlling the Human Element of Security",
+    "author": "Kevin D. Mitnick"
+  },
+  {
+    "id": 11,
+    "title": "The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win",
+    "author": "Gene Kim, Kevin Behr, George Spafford"
+  },
+  {
+    "id": 12,
+    "title": "The Singularity Is Near: When Humans Transcend Biology",
+    "author": "Ray Kurzweil"
+  },
+  {
+    "id": 13,
+    "title": "Cryptonomicon",
+    "author": "Neal Stephenson"
+  },
+  {
+    "id": 14,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins"
+  },
+  {
+    "id": 15,
+    "title": "The Feynman Lectures on Physics",
+    "author": "Richard P. Feynman, Robert B. Leighton, Matthew Sands"
+  },
+  {
+    "id": 16,
+    "title": "The Pragmatic Bookshelf: Practical Programming for Total Beginners",
+    "author": "H. Owano"
+  },
+  {
+    "id": 17,
+    "title": "I, Robot",
+    "author": "Isaac Asimov"
+  },
+  {
+    "id": 18,
+    "title": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself",
+    "author": "Sean Carroll"
+  },
+  {
+    "id": 19,
+    "title": "Hackers: Heroes of the Computer Revolution",
+    "author": "Steven Levy"
+  },
+  {
+    "id": 20,
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman"
+  },
+  {
+    "id": 21,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "id": 22,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling"
+  },
+  {
+    "id": 23,
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin"
+  },
+  {
+    "id": 24,
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss"
+  },
+  {
+    "id": 25,
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 26,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien"
+  },
+  {
+    "id": 27,
+    "title": "Eragon",
+    "author": "Christopher Paolini"
+  },
+  {
+    "id": 28,
+    "title": "The Wheel of Time",
+    "author": "Robert Jordan"
+  },
+  {
+    "id": 29,
+    "title": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson"
+  },
+  {
+    "id": 30,
+    "title": "American Gods",
+    "author": "Neil Gaiman"
+  }
+]
