@@ -1,4 +1,4 @@
-# Repository Template
+# Coding Interview
 
 Welcome to the Coding Interview Practice Repository! This repository is designed to help you prepare for coding interviews by providing a curated collection of questions and solutions.
 
