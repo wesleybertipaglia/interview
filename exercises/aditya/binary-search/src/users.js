@@ -1,0 +1,30 @@
+const users = [
+    'Yvonne',
+    'Judy',
+    'Charlie',
+    'Quentin',
+    'Linda',
+    'Grace',
+    'Xavier',
+    'Ivan',
+    'Peggy',
+    'Frank',
+    'Romeo',
+    'Bob',
+    'Zoe',
+    'Heidi',
+    'Oscar',
+    'Mallory',
+    'Karl',
+    'Alice',
+    'Eve',
+    'Ursula',
+    'Victor',
+    'Sybil',
+    'Walter',
+    'Niaomi',
+    'David',
+    'Trent'
+]
+
+export default users;
