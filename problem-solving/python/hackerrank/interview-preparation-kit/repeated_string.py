@@ -1,9 +1,10 @@
-# HackerRank - Problem Solving
+# HackerRank - Interview Preparation Kit
 # challenge-title: Repeated String
-# challenge-url: 
+# challenge-url: https://www.hackerrank.com/challenges/repeated-string/
 
 # Description:
-# 
+# There is a string, s, of lowercase English letters that is repeated infinitely many times. 
+# Given an integer, n, find and print the number of letter a's in the first  letters of the infinite string.
 
 def repeated_string(s, n):
     count_a_in_s = s.count('a')

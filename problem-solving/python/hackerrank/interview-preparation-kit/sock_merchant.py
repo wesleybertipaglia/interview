@@ -1,9 +1,10 @@
-# HackerRank - Problem Solving
+# HackerRank - Interview Preparation Kit
 # challenge-title: Sock Merchant
-# challenge-url: 
+# challenge-url: https://www.hackerrank.com/challenges/sock-merchant/
 
 # Description:
-# 
+# There is a large pile of socks that must be paired by color. 
+# Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
 
 def sock_merchant(stock_list: list) -> int:
     color_count = {} # Red: 2, Blue: 1, Green: 1
