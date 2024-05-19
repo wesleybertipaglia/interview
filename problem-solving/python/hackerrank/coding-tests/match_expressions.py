@@ -1,4 +1,4 @@
-# HackerRank - Tests
+# HackerRank - Coding Tests
 # challenge-title: Match Expressions
 
 # Description:
