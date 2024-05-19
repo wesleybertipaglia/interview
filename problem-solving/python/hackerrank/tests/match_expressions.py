@@ -1,3 +1,8 @@
+# HackerRank - Tests
+# challenge-title: Match Expressions
+
+# Description:
+# Given a list of strings, write a function that returns a list of strings that match the following regular expression:
 # 'a', 'aa' and 'bababbb' match
 # 'ab' and 'baba' do not match
 

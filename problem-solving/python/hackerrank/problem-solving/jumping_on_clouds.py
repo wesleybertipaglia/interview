@@ -1,3 +1,10 @@
+# HackerRank - Problem Solving
+# challenge-title: Jumping on the Clouds
+# challenge-url: 
+
+# Description:
+# 
+
 def jumping_on_clouds(c):
     n = len(c)
     jumps = 0

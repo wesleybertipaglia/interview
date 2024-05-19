@@ -1,3 +1,10 @@
+# HackerRank - Problem Solving
+# challenge-title: Counting Valleys
+# challenge-url: 
+
+# Description:
+# 
+
 def counting_valleys(path):
     valleys = 0
     altitude = 0

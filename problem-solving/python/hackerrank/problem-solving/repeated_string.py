@@ -1,3 +1,10 @@
+# HackerRank - Problem Solving
+# challenge-title: Repeated String
+# challenge-url: 
+
+# Description:
+# 
+
 def repeated_string(s, n):
     count_a_in_s = s.count('a')
     full_repeats = n // len(s)    

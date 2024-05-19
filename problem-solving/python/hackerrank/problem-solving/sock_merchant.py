@@ -1,3 +1,10 @@
+# HackerRank - Problem Solving
+# challenge-title: Sock Merchant
+# challenge-url: 
+
+# Description:
+# 
+
 def sock_merchant(stock_list: list) -> int:
     color_count = {} # Red: 2, Blue: 1, Green: 1
     pairs = 0
