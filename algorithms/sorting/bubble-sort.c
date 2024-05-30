@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int *sort(int arr[], int len);
 
@@ -28,6 +29,7 @@ int *sort(int arr[], int len)
 
     for (int i = 0; i < len; i++)
     {
+        bool swapped = false;
         for (int j = 0; j < len - i - 1; j++) // i=0 -> arr[n]; i=1 -> arr[n-1]
         {
             if (arr[j] > arr[j + 1]) // current > next
@@ -35,7 +37,12 @@ int *sort(int arr[], int len)
                 int temp = arr[j];
                 arr[j] = arr[j + 1]; // swap elements
                 arr[j + 1] = temp;
+                swapped = true;
             }
+        }
+        if (!swapped)
+        {
+            break;
         }
     }
     return arr;
